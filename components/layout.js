@@ -1,4 +1,7 @@
 //next
+import Link from 'next/link';
+
+//next
 import Head from 'next/head';
 //styles
 import styles from './layout.module.css';
@@ -11,6 +14,9 @@ export default function Layout({ children, pageTitle }) {
       </Head>
       <h1>My Blog</h1>
       {children}
+      <Link href="/">
+        <a>Homeへ</a>
+      </Link>
     </div>
   );
 }

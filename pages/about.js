@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <Layout pageTitle="About">
       <h1>AboutPage</h1>
-      <Link href="/">
-        <a>Homeへ</a>
-      </Link>
     </Layout>
   );
 }
